@@ -1,0 +1,59 @@
+body{
+    background-image: url("background-image.jpeg");
+    color: aliceblue;
+    font-family: Verdana, serif, Geneva;
+    font-size: small;
+}
+
+#content
+{
+    width: 500px;
+    margin: auto;
+}
+
+.detail-class
+{
+    color: black;
+    width: 500px;
+    min-height: 50px;
+    max-height: 500px;
+    border-radius: 5px; 
+    background-color:AliceBlue;
+    opacity: 0.5;
+    margin-top: 5px;
+}
+
+.label-style
+{
+    margin-left: 10px;
+    width: 150px;
+    display: inline-block;
+}
+
+.text-box
+{
+    margin-top: 10px;
+    min-height: 25px;
+    max-height: 500px;
+    border: 1px solid black;
+    width: 300px;
+    font-size: medium;
+    border-radius: 5px; 
+}
+
+.radio
+{
+    margin-left: 40px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.button-class
+{
+    width: 100px;
+    height: 30px;
+    margin-left: 200px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: steelblue;
+}

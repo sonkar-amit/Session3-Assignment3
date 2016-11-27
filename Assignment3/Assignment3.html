@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Session3-Assignment3</title>
+</head>
+<body>
+    <div id="content">
+        <form action="myAction">
+            <section>
+                <h2>Step 1: Your details</h2>
+                <article class="detail-class">
+                    <label for="name" class="label-style">Name</label>
+                    <input type="text" class="text-box" id="name" placeholder="First and last name">
+                </article>
+                <article class="detail-class">
+                    <label for="email" class="label-style">Email</label>
+                    <input type="email" class="text-box" id="email" placeholder="example@domain.com">
+                </article>
+                <article class="detail-class">
+                    <label for="phone" class="label-style">Phone</label>
+                    <input type="tel" class="text-box" id="phone" placeholder="e.g: +447500000000">
+                </article>
+            </section>
+
+            <section>
+                <h2>Step 1: Delivery address</h2>
+                <article class="detail-class">
+                    <label for="address" class="label-style">Address</label>
+                    <textarea id="address" cols="30" rows="10" class="text-box"></textarea>
+                </article>
+                <article class="detail-class">
+                    <label for="postal" class="label-style">Post code</label>
+                    <input type="text" class="text-box" id="postal">
+                </article>
+                <article class="detail-class">
+                    <label for="country" class="label-style">Country</label>
+                    <input type="text" class="text-box" id="country">
+                </article>
+            </section>
+
+            <section>
+                <h2>Step 1: Card details</h2>
+                <article class="detail-class">
+                    <label for="card-type" class="label-style">Card type</label><br/>
+                    <input type="radio" class="radio"/><img src="visa.gif" alt="visa-logo" width="30px" height="30px"> VISA
+                    <input type="radio" class="radio"/><img src="amex.png" alt="visa-logo" width="30px" height="30px"> AmEx
+                    <input type="radio" class="radio"/><img src="mastercard.jpeg" alt="visa-logo" width="30px" height="30px"> Mastercard
+                </article>
+                <article class="detail-class">
+                    <label for="card-number" class="label-style">Card number</label>
+                    <input type="text" class="text-box" id="card-number">
+                </article>
+                <article class="detail-class">
+                    <label for="security-code" class="label-style">Security code</label>
+                    <input type="text" class="text-box" id="security-code">
+                </article>
+                <article class="detail-class">
+                    <label for="name-on-card" class="label-style">Name on card</label>
+                    <input type="text" class="text-box" id="name-on-card" placeholder="exact name as on the card">
+                </article>
+            </section>
+            <br/><br/>
+            <input type="submit" value="BUY IT!" class="button-class">
+        </form>
+    </div>
+    <link rel="stylesheet" href="Assignment3.css">
+</body>
+</html>
